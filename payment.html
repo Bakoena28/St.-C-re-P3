@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment St. Cøre | Secure Checkout</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Praise&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+    <div class="topbar">
+        <div class="logo">
+            <a href="index.html">St. Cøre</a>
+            <span class="slogan">Beyønd Ørdinary Pieces</span>
+        </div>
+        <nav class="menu">
+            <a href="index.html">Høme</a>
+            <a href="about.html">Abøut</a>
+            <a href="services.html">Services</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Cøntact</a>
+        </nav>
+        <a class="cart" href="cart.html">CART</a>
+    </div>
+</header>
+
+    <main>
+        <div class="glass-panel">
+            <h1>Delivery Options</h1>
+<div style="background: rgba(106, 27, 154, 0.05); padding: 1.5rem; border-radius: 8px; border-left: 4px solid #6a1b9a; margin-bottom: 1rem;">
+    <h3>Standard Courier (2-4 Days)</h3>
+    <p>R60.00 - Delivered to your door anywhere in South Africa.</p>
+</div>
+<div style="background: rgba(106, 27, 154, 0.05); padding: 1.5rem; border-radius: 8px; border-left: 4px solid #6a1b9a;">
+    <h3>Free Delivery</h3>
+    <p>Free on all orders over R1000.</p>
+</div>
+<a href="payment.html" class="btn">Continue to Payment</a>
+        <h1 align="center"><u><i>Payment</i></u></h1>
+        <p align="center">Choose høw yøu want tø pay.</p>
+
+        <h2>ørder summary</h2>
+        <table class="sizes">
+            <tr><th>Item</th><th>Qty</th><th>Price</th></tr>
+            <tr><td>core hoodie</td><td>1</td><td>R850</td></tr>
+            <tr><td>standard delivery</td><td>1</td><td>R70</td></tr>
+            <tr><td><b>Tøtal</b></td><td></td><td><b>R920</b></td></tr>
+        </table>
+
+        <h2>payment methød</h2>
+        <form>
+            <fieldset>
+                <legend>Pick øne:</legend>
+                <label><input type="radio" name="method" value="card" checked> Card</label>
+                <label><input type="radio" name="method" value="eft"> EFT</label>
+                <label><input type="radio" name="method" value="snapscan"> SnapScan</label>
+            </fieldset>
+
+            <label for="cardname">Name øn card:</label>
+            <input type="text" id="cardname" name="cardname">
+
+            <label for="cardnumber">Card number:</label>
+            <input type="text" id="cardnumber" name="cardnumber" placeholder="0000 0000 0000 0000">
+
+            <label for="expiry">Expiry date:</label>
+            <input type="text" id="expiry" name="expiry" placeholder="MM/YY">
+
+            <label for="cvv">CVV:</label>
+            <input type="password" id="cvv" name="cvv" placeholder="123">
+
+            <label for="address">Delivery address:</label>
+            <textarea id="address" name="address" rows="3"></textarea>
+
+            <button class="btn" type="submit">Pay nøw</button>
+            <h2>select your payment method</h2>
+<div class="payment-options">
+    <label class="payment-card">
+        <input type="radio" name="payment" value="card" checked>
+        <div class="card-content">
+            <h3>💳 Credit / Debit Card</h3>
+            <p>Secure payment via Visa or Mastercard.</p>
+        </div>
+    </label>
+    
+    <label class="payment-card">
+        <input type="radio" name="payment" value="eft">
+        <div class="card-content">
+            <h3>🏦 Instant EFT</h3>
+            <p>Pay directly from your bank account.</p>
+        </div>
+    </label>
+
+    <label class="payment-card">
+        <input type="radio" name="payment" value="snapscan">
+        <div class="card-content">
+            <h3>📱 SnapScan / Zapper</h3>
+            <p>Scan the QR code to pay instantly.</p>
+        </div>
+    </label>
+</div>
+        </form>
+
+
+        <p align="center">
+            <a class="btn" href="delivery.html">Back tø delivery</a>
+        </p>
+        <p align="center">
+            <a class="btn" href="delivery.html">Back tø delivery</a>
+        </p>
+        </div>
+    </main>
+
+    <footer>
+    <div class="footer-links">
+        <a href="contact.html">Contact</a>
+        <a href="contact.html#faq">FAQ</a>
+        <a href="delivery.html">Delivery</a>
+        <a href="payment.html">Payment</a>
+        <a href="https://www.instagram.com" target="_blank">Social Media</a>
+        <form>
+            <input type="email" placeholder="your email" aria-label="newsletter email">
+            <button class="btn" type="submit">join</button>
+        </form>
+    </div>
+    <p>&copy;ST10524013#St_Cøre</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
